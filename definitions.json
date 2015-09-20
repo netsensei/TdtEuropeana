@@ -1,0 +1,55 @@
+{
+    "definitions": {
+        "europeana/provider/dataset": {
+            "title": "Dataset for the pre-configured provider",
+            "description": "Dataset for the pre-configured provider",
+            "type": "installed",
+            "language": "English",
+            "rights": "License Not Specified",
+            "cache_minutes": null,
+            "draft": 0,
+            "map_property": null,
+            "keywords": "Europeana, Culture, Heritage",
+            "publisher_uri": "http://www.europeana.eu",
+            "publisher_name": "Europeana",
+            "theme": "Cultural Heritage",
+            "date": null,
+            "path": "TdtEuropeana/ProviderDataset.class.php",
+            "class": "ProviderDataset"
+        },
+        "europeana/provider": {
+            "title": "Pre-configured Provider details",
+            "description": "Pre-configured Provider details",
+            "type": "installed",
+            "language": "English",
+            "rights": "License Not Specified",
+            "cache_minutes": 10,
+            "draft": 0,
+            "map_property": null,
+            "keywords": "Europeana, Culture, Heritage",
+            "publisher_uri": "http://www.europeana.eu",
+            "publisher_name": "Europeana",
+            "theme": "Cultural Heritage",
+            "date": null,
+            "path": "TdtEuropeana/Provider.class.php",
+            "class": "Provider"
+        },
+        "europeana/providers": {
+            "title": "Europeana Providers",
+            "description": "Lists all the available providers",
+            "type": "installed",
+            "language": "English",
+            "rights": "License Not Specified",
+            "cache_minutes": 5,
+            "draft": 0,
+            "map_property": null,
+            "keywords": "Europeana, Culture, Heritage",
+            "publisher_uri": "http://www.europeana.eu",
+            "publisher_name": "Europeana",
+            "theme": "Cultural Heritage",
+            "date": null,
+            "path": "TdtEuropeana/Providers.class.php",
+            "class": "Providers"
+        }
+    }
+}
