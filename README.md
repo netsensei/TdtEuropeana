@@ -37,7 +37,18 @@ cp -R TdtEuropeana <TdtRoot>/installed
 
 ### Fetch the PHP API library
 
-TODO
+Open up the `composer.json` file in the root of your Datatank installation and add the `colada/europeana` package like this:
+
+```json
+    "require": {
+        ...
+        "colada/europeana": "dev-master",
+    },
+```
+
+Next run `composer update` to automatically fetch the package, install it in the `vendor/` folder and add it to the `vendor/composer/autoload_psr4.php` class.
+
+The installed resource will autmatically pick up any loaded library classes and use them.
 
 ### Get an API Key
 
