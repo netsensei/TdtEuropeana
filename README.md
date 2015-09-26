@@ -41,7 +41,6 @@ Open up the `composer.json` file in the root of your Datatank installation and a
 
 ```json
     "require": {
-        ...
         "colada/europeana": "dev-master",
     },
 ```
